@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import "./globals.css";
 
-export default function RootLayout({children}:{children:React.ReactNode}) {
+export const metadata: Metadata = {
+  title: "The Syndicate Tournament Hub",
+  description: "FC Mobile esports tournament management platform",
+};
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>{children}</body>
