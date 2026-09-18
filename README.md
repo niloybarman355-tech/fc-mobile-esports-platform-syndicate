@@ -1,13 +1,16 @@
 # FC Mobile Esports Platform
 
-Premium tournament management system for FC Mobile esports communities.
+Premium tournament management platform starter.
 
-## Features
-
-- Tournament management
-- Team registration
+Built for:
+- Tournament registration
 - Fixtures
-- Results
 - Standings
-- Leaderboards
+- Player statistics
 - Admin dashboard
+
+Next phases add:
+- Supabase database
+- Prisma ORM
+- Authentication
+- Cloudinary uploads
