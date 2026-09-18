@@ -1,3 +1,0 @@
-src
- └── app
-      └── page.tsx
